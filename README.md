@@ -5,3 +5,5 @@
 [![discord](https://img.shields.io/discord/1314141024020467782?color=7289da&label=discord&logo=discord&logoColor=white)](https://25.re/ditr)
 
 # notifications
+
+Visual management of a notification list: recent, hidden/visible, read/unread.
