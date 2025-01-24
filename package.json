@@ -6,29 +6,22 @@
 	"description": "Visual management of a notification list: recent, hidden/visible, read/unread",
 	"devDependencies": {
 		"@types/node": "^22.9",
+		"sass": "^1.80",
 		"typescript": "5.6"
 	},
+	"exports": "./notifications.js",
 	"files": [
 		"LICENSE",
 		"README.md",
+		"css/**/*.css",
+		"css/**/*.svg",
 		"*.d.ts",
 		"*.js"
 	],
 	"homepage": "https://it.rocks",
 	"keywords": [
-		"carriage return",
-		"notifications",
-		"fix",
-		"fixed",
 		"front-end",
-		"it.rocks",
-		"line feed",
-		"line break",
-		"pre",
-		"raw",
-		"style",
-		"text",
-		"white-space"
+		"it.rocks"
 	],
 	"license": "ISC",
 	"module": "./notifications.js",
@@ -38,9 +31,11 @@
 		"url": "git+https://github.com/itrocks-ts/notifications.git"
 	},
 	"scripts": {
-		"build": "tsc"
+		"build": "npm run build:cjs && npm run build:css",
+		"build:cjs": "tsc",
+		"build:css": "sass --no-source-map css/:css/"
 	},
 	"type": "module",
 	"types": "./notifications.d.ts",
-	"version": "0.0.3"
+	"version": "0.0.4"
 }
