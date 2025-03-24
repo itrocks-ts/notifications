@@ -6,7 +6,7 @@ const removeClass = (item: HTMLElement, className: string) => {
 	}
 }
 
-export default function notification(item: HTMLElement)
+export function notification(item: HTMLElement)
 {
 	if (!item.innerHTML.trim().length) {
 		item.remove()
