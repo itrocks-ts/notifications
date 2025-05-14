@@ -7,7 +7,7 @@
 	"devDependencies": {
 		"@types/node": "^22.9",
 		"sass": "^1.83",
-		"typescript": "5.6"
+		"typescript": "~5.8"
 	},
 	"exports": "./notifications.js",
 	"files": [
@@ -37,5 +37,5 @@
 	},
 	"type": "module",
 	"types": "./notifications.d.ts",
-	"version": "0.0.6"
+	"version": "0.0.7"
 }
