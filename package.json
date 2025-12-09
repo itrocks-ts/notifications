@@ -5,9 +5,9 @@
 	},
 	"description": "Visual management of a notification list: recent, hidden/visible, read/unread",
 	"devDependencies": {
-		"@types/node": "^22.9",
-		"sass": "^1.83",
-		"typescript": "~5.8"
+		"@types/node": "^24.10",
+		"sass": "^1.95",
+		"typescript": "~5.9"
 	},
 	"exports": "./notifications.js",
 	"files": [
@@ -37,5 +37,5 @@
 	},
 	"type": "module",
 	"types": "./notifications.d.ts",
-	"version": "0.0.7"
+	"version": "0.0.8"
 }
