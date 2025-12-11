@@ -20,8 +20,16 @@
 	],
 	"homepage": "https://it.rocks",
 	"keywords": [
+		"alert",
+		"dropdown",
 		"front-end",
-		"it.rocks"
+		"html",
+		"it.rocks",
+		"notification",
+		"toast",
+		"UI",
+		"UX",
+		"view"
 	],
 	"license": "ISC",
 	"module": "./notifications.js",
@@ -37,5 +45,5 @@
 	},
 	"type": "module",
 	"types": "./notifications.d.ts",
-	"version": "0.0.8"
+	"version": "0.0.9"
 }
