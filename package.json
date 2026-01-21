@@ -9,7 +9,6 @@
 		"sass": "^1.95",
 		"typescript": "~5.9"
 	},
-	"exports": "./notifications.js",
 	"files": [
 		"LICENSE",
 		"README.md",
@@ -45,5 +44,5 @@
 	},
 	"type": "module",
 	"types": "./notifications.d.ts",
-	"version": "0.1.0"
+	"version": "0.1.1"
 }
